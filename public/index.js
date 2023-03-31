@@ -1,8 +1,8 @@
-helloExpress()
+helloExpress();
 function helloExpress() {
-    let html = '';
-    html += `
+  let html = "";
+  html += `
         <h1>Hello Express</h1>
     `;
-    document.getElementById('app').innerHTML = html
+  document.getElementById("app").innerHTML = html;
 }
